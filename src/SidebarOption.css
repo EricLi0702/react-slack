@@ -27,3 +27,6 @@
 .sidebarOption > h3 {
     font-weight:500;
 }
+.d-flex{
+    display: flex;
+}
