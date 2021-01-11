@@ -9,6 +9,7 @@ import { BrowserRouter, Switch, Route} from "react-router-dom"
 import { useStateValue } from './StateProvider';
 function App() {
   const [{ user },dispatch] = useStateValue();
+  console.log(user)
   return (
     <div className="app">
       <BrowserRouter>
